@@ -1,0 +1,1 @@
+{"routes":[{"path":"/","title":"ScholarGate | البحث العلمي"},{"path":"/paper/:id","title":"تفاصيل البحث | ScholarGate"},{"path":"/sources","title":"مصادر البحث | ScholarGate"},{"path":"/saved","title":"الأبحاث المحفوظة | ScholarGate"}]}
