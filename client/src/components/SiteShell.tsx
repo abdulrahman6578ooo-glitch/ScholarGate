@@ -44,7 +44,6 @@ export default function SiteShell({ children }: { children: ReactNode }) {
       <main className="page-content">{children}</main>
       <footer className="site-footer">
         <span>ScholarGate <span className="footer-dot">·</span> {isArabic ? "ابحث بذكاء، ووصل إلى المصدر" : "Search clearly. Reach the source."}</span>
-        <span className="tax-number">{isArabic ? "الرقم الضريبي" : "Tax Registration Number"}: 779-738-609</span>
       </footer>
       <nav className="mobile-nav" aria-label={isArabic ? "التنقل" : "Navigation"}>
         {navItems.map(item => {
